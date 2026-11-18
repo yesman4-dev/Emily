@@ -1,17 +1,17 @@
 :root {
-  --wine: #3d1627;
-  --wine-deep: #240a16;
-  --rose: #b85f78;
-  --blush: #f2d6dc;
-  --blush-light: #fbf5f4;
-  --ivory: #fffaf3;
-  --gold: #c8a55c;
-  --gold-light: #ead394;
-  --ink: #311e25;
-  --muted: #806a72;
+  --wine: #a66f82;
+  --wine-deep: #76505f;
+  --rose: #d394a8;
+  --blush: #f1ced9;
+  --blush-light: #fff3f6;
+  --ivory: #fffafb;
+  --gold: #b99a63;
+  --gold-light: #f4dfaa;
+  --ink: #5b414a;
+  --muted: #907780;
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Montserrat", Arial, sans-serif;
-  --shadow: 0 24px 80px rgba(61, 22, 39, 0.14);
+  --shadow: 0 24px 80px rgba(123, 79, 96, 0.14);
   --max: 1180px;
 }
 
@@ -154,8 +154,8 @@ img {
 }
 
 .btn-primary:hover {
-  background: #541d34;
-  box-shadow: 0 18px 42px rgba(61, 22, 39, 0.28);
+  background: #926074;
+  box-shadow: 0 18px 42px rgba(123, 79, 96, 0.24);
 }
 
 .btn-soft {
@@ -192,9 +192,9 @@ img {
   padding: 24px;
   overflow: hidden;
   background:
-    radial-gradient(circle at 50% 30%, rgba(226, 158, 178, 0.35), transparent 28%),
-    linear-gradient(145deg, #2a0c1a 0%, #541d34 55%, #2a0c1a 100%);
-  color: var(--ivory);
+    radial-gradient(circle at 50% 30%, rgba(255, 250, 251, 0.72), transparent 30%),
+    linear-gradient(145deg, #f7dfe6 0%, #e9b9c8 55%, #f7dfe6 100%);
+  color: var(--wine-deep);
   transition: opacity 800ms ease, visibility 800ms ease;
 }
 
@@ -242,7 +242,7 @@ img {
 }
 
 .gate-card .eyebrow {
-  color: var(--gold-light);
+  color: var(--wine-deep);
 }
 
 .gate-crown {
@@ -252,7 +252,7 @@ img {
 
 .gate-crown svg {
   fill: none;
-  stroke: var(--gold-light);
+  stroke: var(--gold);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.4;
@@ -260,7 +260,7 @@ img {
 
 .gate-kicker {
   margin: 0;
-  color: var(--blush);
+  color: var(--wine);
   font-family: var(--serif);
   font-size: clamp(1.3rem, 3vw, 1.8rem);
   font-style: italic;
@@ -277,7 +277,7 @@ img {
 
 .gate-full-name {
   margin: 14px 0 0;
-  color: rgba(255, 250, 243, 0.78);
+  color: rgba(91, 65, 74, 0.78);
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.24em;
@@ -286,7 +286,7 @@ img {
 
 .gate-date {
   margin: 20px 0 34px;
-  color: var(--gold-light);
+  color: var(--wine-deep);
   font-size: 0.78rem;
   letter-spacing: 0.5em;
 }
@@ -304,7 +304,7 @@ img {
 
 .gate-note {
   margin-top: 16px;
-  color: rgba(255, 250, 243, 0.55);
+  color: rgba(91, 65, 74, 0.62);
   font-size: 0.68rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -322,7 +322,7 @@ img {
 }
 
 .site-header.scrolled {
-  background: rgba(36, 10, 22, 0.93);
+  background: rgba(154, 101, 122, 0.94);
   box-shadow: 0 10px 40px rgba(20, 4, 11, 0.16);
   backdrop-filter: blur(16px);
 }
@@ -443,8 +443,8 @@ img {
 
 .hero-shade {
   background:
-    linear-gradient(90deg, rgba(35, 7, 19, 0.82) 0%, rgba(35, 7, 19, 0.58) 44%, rgba(35, 7, 19, 0.18) 76%),
-    linear-gradient(0deg, rgba(24, 5, 13, 0.54), transparent 35%, rgba(24, 5, 13, 0.2));
+    linear-gradient(90deg, rgba(101, 61, 77, 0.78) 0%, rgba(128, 79, 98, 0.5) 44%, rgba(176, 115, 137, 0.12) 76%),
+    linear-gradient(0deg, rgba(100, 60, 75, 0.5), transparent 35%, rgba(136, 88, 105, 0.14));
 }
 
 .hero-content {
@@ -956,7 +956,7 @@ img {
 .countdown {
   overflow: hidden;
   background:
-    linear-gradient(rgba(44, 10, 25, 0.88), rgba(44, 10, 25, 0.94)),
+    linear-gradient(rgba(143, 91, 111, 0.84), rgba(119, 76, 93, 0.9)),
     url("../assets/images/lizzy-portrait-01.jpg") center 42% / cover fixed;
   color: var(--ivory);
 }
@@ -1296,9 +1296,9 @@ img {
 .attendance {
   overflow: hidden;
   background:
-    radial-gradient(circle at 50% 0%, rgba(233, 176, 193, 0.18), transparent 42%),
-    linear-gradient(135deg, #2b0c1b, var(--wine) 48%, #2b0c1b);
-  color: var(--ivory);
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.72), transparent 42%),
+    linear-gradient(135deg, #f7dce4, #e9b8c7 48%, #f7dce4);
+  color: var(--ink);
   text-align: center;
 }
 
@@ -1330,32 +1330,48 @@ img {
 .attendance-crown {
   display: block;
   margin-bottom: 18px;
-  color: var(--gold-light);
+  color: var(--gold);
   font-size: 3rem;
 }
 
 .attendance-inner .section-title {
   margin-bottom: 26px;
+  color: var(--wine-deep);
+}
+
+.attendance .section-kicker.light {
+  color: var(--wine);
 }
 
 .attendance-inner > p:not(.section-kicker) {
   max-width: 610px;
   margin: 0 auto 34px;
-  color: rgba(255, 250, 243, 0.76);
+  color: var(--ink);
   font-family: var(--serif);
   font-size: 1.25rem;
 }
 
+.attendance-inner .attendance-instruction {
+  margin-top: -18px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+}
+
+.attendance-message strong {
+  color: var(--wine-deep);
+  font-size: 1.12em;
+}
+
 .btn-whatsapp {
   min-width: 285px;
-  background: #25a966;
+  background: #b77b90;
   color: #fff;
-  box-shadow: 0 16px 42px rgba(9, 50, 29, 0.32);
+  box-shadow: 0 16px 42px rgba(123, 79, 96, 0.24);
 }
 
 .btn-whatsapp:hover {
-  background: #1f9258;
-  box-shadow: 0 20px 48px rgba(9, 50, 29, 0.42);
+  background: #a66f82;
+  box-shadow: 0 20px 48px rgba(123, 79, 96, 0.3);
 }
 
 .btn-whatsapp svg {
@@ -1366,7 +1382,7 @@ img {
 .attendance-phone {
   display: block;
   margin-top: 18px;
-  color: var(--gold-light);
+  color: var(--wine-deep);
   font-size: 0.68rem;
   letter-spacing: 0.2em;
 }
@@ -1409,7 +1425,7 @@ img {
 }
 
 .closing-shade {
-  background: linear-gradient(rgba(36, 10, 22, 0.48), rgba(36, 10, 22, 0.76));
+  background: linear-gradient(rgba(133, 84, 103, 0.38), rgba(111, 70, 86, 0.7));
 }
 
 .closing-content {
@@ -1705,8 +1721,8 @@ img {
 
   .hero-shade {
     background:
-      linear-gradient(0deg, rgba(31, 6, 16, 0.85) 0%, rgba(31, 6, 16, 0.25) 72%),
-      linear-gradient(90deg, rgba(31, 6, 16, 0.4), transparent);
+      linear-gradient(0deg, rgba(111, 70, 86, 0.78) 0%, rgba(151, 96, 117, 0.18) 72%),
+      linear-gradient(90deg, rgba(130, 81, 100, 0.34), transparent);
   }
 
   .hero-content {

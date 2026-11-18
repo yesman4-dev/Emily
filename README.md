@@ -24,7 +24,7 @@ Todos los datos editables están centralizados en `scripts/event-data.js`:
 
 La fecha configurada actualmente es el **lunes 23 de noviembre de 2026 a las 5:00 p. m.**, hora de Honduras.
 
-La confirmación de asistencia abre WhatsApp al **+504 8903-0844** con un mensaje predeterminado. El número y el texto también se administran desde `scripts/event-data.js`.
+La confirmación de asistencia abre WhatsApp al **+504 8903-0844** con un mensaje predeterminado. La invitación indica un máximo de **2 personas**. El número, el límite y el texto se administran desde `scripts/event-data.js`.
 
 ## Publicar en GitHub Pages
 

@@ -29,7 +29,8 @@ window.EVENT_DATA = new EventDTO({
   longitude: -87.136597,
   attendance: {
     phone: "50489030844",
-    message: "Hola, confirmo mi asistencia a los XV años de Emily Sofía Sanches Molina el lunes 23 de noviembre de 2026 a las 5:00 p. m. ¡Gracias por la invitación!",
+    maxGuests: 2,
+    message: "Hola, confirmo asistencia a los XV años de Emily Sofía Sanches Molina el lunes 23 de noviembre de 2026 a las 5:00 p. m. ¡Gracias por la invitación!",
   },
   song: {
     title: "The Climb",

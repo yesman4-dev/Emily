@@ -359,6 +359,9 @@
       document.querySelectorAll("[data-event-coordinates]").forEach((element) => {
         element.textContent = `${this.event.latitude}, ${this.event.longitude}`;
       });
+      document.querySelectorAll("[data-attendance-max]").forEach((element) => {
+        element.textContent = String(this.event.attendance.maxGuests);
+      });
     }
 
     configureInvitationGate() {

@@ -35,6 +35,14 @@ La confirmación de asistencia abre WhatsApp al **+504 8903-0844** con un mensaj
 5. Seleccionar la rama `main` y la carpeta `/ (root)`.
 6. Guardar y esperar a que GitHub muestre la dirección pública.
 
+La dirección prevista para compartir la invitación es:
+
+```text
+https://yesman4-dev.github.io/Emily/
+```
+
+Comparte esa dirección —no la URL del repositorio— para que WhatsApp pueda mostrar la fotografía, el título y la descripción configurados en la invitación.
+
 ## Estructura
 
 ```text
